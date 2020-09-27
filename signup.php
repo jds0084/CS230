@@ -3,6 +3,7 @@ require "includes/header.php"
 ?>
 
 <main>
+    <link rel = "stylesheet" href = "../css/signup.css">
     <div class= "background-cover">
         <div class ="h-100 container center-me">
             <div class ="my-auto">
@@ -36,7 +37,7 @@ require "includes/header.php"
                             <button type = "submit" name = "signup-submit" class = "btn btn-outline-success btn-lg btn-block">Register Now</button>
                         </div>                         
                     </form>
-                    <div class ="text-center">Already have an account? <a href = "login.html">Sign in</a></div>
+                    <div class ="text-center">Already have an account? <a href = "login.php">Sign in</a></div>
                 
                 </div>
             </div>
