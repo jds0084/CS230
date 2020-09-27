@@ -39,17 +39,16 @@ session_start();
             if(!isset($_SESSION['uid']))
              {
                  echo '<li class="nav-item">
-                 <a class="nav-link" href="login.php">Login</a>
+                 <a class="nav-link" href="../login.php">Login</a>
                     </li>';
-                    //include 'html/profile.html';
+            
              }
              else
              {
                 echo '<li class="nav-item">
-                <a class="nav-link" href=/includes/logout.php">Logout</a>
+                <a class="nav-link" href="../logout.php">Logout</a>
                 </li>';
-            header("Location: login.php");
-            exit();
+           
              }
                ?>
 

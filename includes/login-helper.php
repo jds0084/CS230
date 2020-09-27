@@ -5,7 +5,7 @@
         $uname_email = $_POST['uname'];
         $passw = $_POST['pwd'];
 
-        if (empty($uname_email || $passw))
+        if (empty($uname_email) || empty($passw))
         {
             header("Location: ../login.php?error=EmptyField");
             exit();

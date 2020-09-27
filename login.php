@@ -20,13 +20,13 @@ require 'includes/header.php'
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active img-fluid">
-                        <img class="d-block mx-auto" src="images/FullSizeRender.jpeg" alt="First slide">
+                        <img class="d-block mx-auto" src="IMAGES/FullSizeRender.jpeg" alt="First slide">
                       </div>
                       <div class="carousel-item img-fluid">
-                        <img class="d-block mx-auto" src="images/IMG_9058-1024x768.jpg" alt="Second slide">
+                        <img class="d-block mx-auto" src="IMAGES/IMG_9058-1024x768.jpg" alt="Second slide">
                       </div>
                       <div class="carousel-item img-fluid">
-                        <img class="d-block mx-auto" src="images/edd705de83b86b9e56e4fce8843e6b8b.png" alt="Third slide">
+                        <img class="d-block mx-auto" src="IMAGES/edd705de83b86b9e56e4fce8843e6b8b.png" alt="Third slide">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
