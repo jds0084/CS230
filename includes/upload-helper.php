@@ -9,7 +9,7 @@ if (isset($_POST['prof-submit'])) {
    
     $uname = $_SESSION['username'];
 
-    $file = $_FILES['prof_image'];
+    $file = $_FILES['prof-image'];
     $file_name = $file['name'];
     $file_tmp_name = $file['tmp_name'];
     $file_error = $file['error'];

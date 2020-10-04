@@ -65,7 +65,7 @@ require 'includes/dbhandler.php';
             <div class = "form-group">
               <img src = "<?php echo $photo; ?>" onclick = "triggered();" id = "prof-display">
               <label for = "prof-image" id = "uname-style"><?php echo $prof_user;?></label>
-              <input type = "file" name = "prof-image" onchange = "preview(this)" class = "form-control" style = "display: none;">
+              <input type = "file" name = "prof-image" id = "prof-image" onchange = "preview(this)" class = "form-control" style = "display: none;">
             </div>
             <div class = "form-group">
                 <textarea name = "bio" id ="bio" cols = "30" rows = "10" placeholder = "bio..." style = "text-align: center;"></textarea>
