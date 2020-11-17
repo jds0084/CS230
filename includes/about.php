@@ -21,7 +21,7 @@ require 'includes/header.php'
 				<img src = "images/UvvoJ0UW_400x400.jpg">
 
 					<div class = "container">
-						<h2>Associate Chairman</h2>
+						<h2>Associate Chairman</h2> 
 						<c>RUSTY SHACKLEFORD</c>
 						<p style="color: black;">Rusty has been with the company for 10 years. He handles international inquiries, worker-corporate relations,
 							as well as handles maintenence around the office. Rusty plans on never retiring and is dedicated to our efforts.</p>
